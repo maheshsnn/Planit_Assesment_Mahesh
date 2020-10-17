@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="classes">
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="chrome"></parameter>
+    <parameter name="URL" value="http://demowebshop.tricentis.com/"></parameter>
+    
+
+  
+    <classes>
+      <class name="Testcases.Demo_Web_Shop"/>
+      </classes>
+    
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

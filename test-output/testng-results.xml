@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="56235" started-at="2020-10-17T04:39:21Z" finished-at="2020-10-17T04:40:17Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="56235" started-at="2020-10-17T04:39:21Z" finished-at="2020-10-17T04:40:17Z">
+      <class name="Testcases.Demo_Web_Shop">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:Testcases.Demo_Web_Shop@2344fc66]" name="setup" is-config="true" duration-ms="16237" started-at="2020-10-17T10:09:21Z" finished-at="2020-10-17T10:09:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://demowebshop.tricentis.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="WebShop_Demo()[pri:0, instance:Testcases.Demo_Web_Shop@2344fc66]" name="WebShop_Demo" duration-ms="39292" started-at="2020-10-17T10:09:38Z" finished-at="2020-10-17T10:10:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebShop_Demo -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testcases.Demo_Web_Shop@2344fc66]" name="teardown" is-config="true" duration-ms="593" started-at="2020-10-17T10:10:17Z" finished-at="2020-10-17T10:10:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: WebShop_Demo STATUS:SUCCESS METHOD:Demo_Web_Shop.WebShop_Demo()[pri:0, instance:Testcases.Demo_Web_Shop@2344fc66]]
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcases.Demo_Web_Shop -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

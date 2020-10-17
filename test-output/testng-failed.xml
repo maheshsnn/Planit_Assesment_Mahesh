@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="classes">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="URL" value="http://demowebshop.tricentis.com/"/>
+  <test name="Test(failed)" parallel="classes" preserve-order="true">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="URL" value="http://demowebshop.tricentis.com/"/>
+    <classes>
+      <class name="Testcases.Demo_Web_Shop">
+        <methods>
+          <include name="setup"/>
+          <include name="WebShop_Demo"/>
+        </methods>
+      </class> <!-- Testcases.Demo_Web_Shop -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
